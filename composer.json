@@ -1,0 +1,22 @@
+{
+  "name": "twitnic/FakerEnergyIndustry",
+  "description": "Faker provider",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominic Richter",
+      "email": "kontakt@twitnic.de"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "fzaninotto/faker": "^1.7",
+    "squizlabs/php_codesniffer": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Faker\\Provider\\": "src/"
+    }
+  }
+}
